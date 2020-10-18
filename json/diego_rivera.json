@@ -1,0 +1,101 @@
+{
+    "artista" : " Diego Rivera",
+    "descripcion" : "Diego Rivera (1886-1957) fue uno de los pintores mexicanos más célebres, recordado especialmente por la brillante carrera que desarrolló en el movimiento del muralismo mexicano, junto a José Clemente Orozco y David Alfaro Siqueiros. \n\nSin embargo, aunque muchos conocen su nombre, no todos conocen sus obras fundamentales. En este artículo conoceremos sus trabajos más emblemáticos y las razones de su trascendencia.",
+    "obras" : [
+        {
+            "titulo" : "La creación",
+            "descripcion" : "El mural llamado La creación fue elaborado en el año 1922 por encargo del entonces secretario de educación de México, José Vasconcelos. Es emblemático por tratarse del primer mural desarrollado por el artista. Está inspirado en elementos estéticos tomados de sus experiencias en un viaje a Tehuantepec. \n\nEl centro de la composición es el punto de partida, de donde de una célula original surge el hombre con los brazos abiertos en cruz. El semicírculo azul actúa como símbolo de la energía o principio creador que irradia hacia todos los extremos del cuadro.",
+            "principal" : "la_creación.jpg",
+            "fragmentos" : [
+                {
+                    "fragmento" : "fr_la_creación_1.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_la_creación_2.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_la_creación_3.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                }
+            ]
+        },
+        {
+            "titulo" : "Capilla Riveriana",
+            "descripcion" : "Diego Rivera se encargó también de la decoración de diferentes espacios de la Universidad Autónoma de Chapingo, conjunto del cual destacó, particularmente, la decoración de la llamada Capilla Riveriana, en una clara alusión a la Capilla Sixtina de Miguel Ángel. \n\nEn esta obra. Rivera aplicó varios de los principios estudiados durante su estancia en Italia, donde tuvo la oportunidad de conocer la obra de los grandes maestros. Dentro de la capilla, Rivera alude a la dualidad naturaleza y ciencia.",
+            "principal" : "capilla_riveriana.jpg",
+            "fragmentos" : [
+                {
+                    "fragmento" : "fr_capilla_riveriana_1.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_capilla_riveriana_2.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_capilla_riveriana_3.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                }
+            ]
+        },
+        {
+            "titulo" : "Epopeya del pueblo mexicano",
+            "descripcion" : "Esta obra es una de las más monumentales piezas de Diego Rivera. Se trata de un grupo inmenso de murales que ocupa todos los muros de la escalera del Palacio Nacional de México. Su ejecución inició en el año 1929 y culminó en 1935. También fue encargada por José Vasconcelos. \n\nLa sección de la derecha representa a la historia prehispánica de México; la sección central representa el proceso de conquista y colonización, mientras que la tercera sección representa la formulación del ideario marxista del inicios del siglo XX.",
+            "principal" : "epopeya.jpg",
+            "fragmentos" : [
+                {
+                    "fragmento" : "fr_epopeya_1.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_epopeya_2.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_epopeya_3.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                }
+            ]
+        },
+        {
+            "titulo" : "El hombre controlador del universo",
+            "descripcion" : "Este mural, conocido también como El hombre en la encrucijada, ha sido uno de los murales más polémicos de Diego Rivera. La razón de ello estriba en que, en primer lugar, fue creado y ejecutado para el Centro Rockefeller, en los Estados Unidos, país donde Rivera gozaba de cierto reconocimiento. \n\nSin embargo, Rivera incluyó en el mural el rostro de Lenin, lo cual fue observado como un irrespeto y un desafío, ante lo cual mandaron a destruir la obra. Años más tarde, en 1934, Rivera repetiría el proyecto en el Palacio de Bellas Artes de México.",
+            "principal" : "hombre_controlador.jpg",
+            "fragmentos" : [
+                {
+                    "fragmento" : "fr_hombre_controlador_1.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_hombre_controlador_2.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_hombre_controlador_3.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                }
+            ]
+        },
+        {
+            "titulo" : "Sueño de una tarde en la Alameda Central",
+            "descripcion" : "Este mural de Diego Rivera respondió a una iniciativa del arquitecto mexicano Carlos Obregón Santacilia. Se ubica actualmente en el Museo Diego Rivera, aunque originalmente se encontraba en el Hotel El Prado. \n\nEn este mural, Diego Rivera se retrata a sí mismo como niño mientras pasea por la Alameda Central de Ciudad de México. A lo largo de su recorrido, lo acompañan más de una centena de personajes fundamentales de la historia mexicana.",
+            "principal" : "sueño_tarde.jpg",
+            "fragmentos" : [
+                {
+                    "fragmento" : "fr_sueño_tarde_1.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_sueño_tarde_2.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_sueño_tarde_3.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                }
+            ]
+        }
+    ]
+}

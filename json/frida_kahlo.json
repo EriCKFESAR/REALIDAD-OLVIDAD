@@ -1,0 +1,120 @@
+{
+    "artista" : "frida kahlo",
+    "descripcion" : "Frida Kahlo fue una pintora mexicana de la primera mitad del siglo XX, que se ha convertido en todo un símbolo cultural. En efecto, Hilda Trujillo, en una biografía sobre la artista, comenta: “Su personalidad ha sido adoptada como una de las banderas del feminismo, de la discapacidad, de la libertad sexual y de la cultura mexicana”. \n\nCatalogada como surrealista, Kahlo prefería pensarse a sí misma como alguien que representaba su realidad última, lo que la hacía sentir muy lejos de las preocupaciones por el inconsciente, propias del surrealismo. \n\nVarios elementos marcarían su obra: por un lado, la indagación del arte popular e indígena mexicano; por el otro, la exploración de su propio dolor, tanto físico como emocional, derivado de sus graves problemas de salud y de su tormentosa vida al lado de Diego Rivera, el muralista mexicano. Para comprender mejor su mirada, conozcamos algunas de sus obras más emblemáticas.",
+    "obras" : [
+        {
+            "titulo" : "Autorretrato",
+            "descripcion" : "En 1926 Frida Kahlo pinta su primer autorretrato. Tendría para entonces 19 años de edad y sufría las consecuencias del grave accidente que la dejó mucho tiempo postrada en cama. Durante ese tiempo, Frida no podía ver más que el techo de su habitación. Su madre, conmovida, diseñó para ella un caballete especial, que le permitiría pintar acostada. A un lado del caballete, sujetó un espejo, de manera que Frida podía al menos verse a sí misma.",
+            "principal" : "autoretrato.jpg",
+            "fragmentos" : [
+                {
+                    "fragmento" : "fr_autoretrato_1.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_autoretrato_2.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_autoretrato_3.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                }
+            ]
+        },
+        {
+            "titulo" : "Frida y Diego Rivera",
+            "descripcion" : "Más que amor, Frida era una auténtica devota de su marido, Diego Rivera. Siempre percibió a Diego como un talento superior, mientras que se percibía su propia obra como “absolutamente espantosa”. \n\nCon esta mentalidad, no tuvo problema en asumir el papel de la esposa que respalda y sirve a su marido. Dicen Servando Ortoll y Annette B. Ramírez de Arellano en un ensayo titulado Frida Kahlo Retrato de la artista como esposa empresaria, que esta mujer asumió no solo el cuidado de su esposo, sino que se encargó de su carrera internacional como una auténtica empresaria del arte.",
+            "principal" : "frida_y_diego.jpg",
+            "fragmentos" : [
+                {
+                    "fragmento" : "fr_frida_y_diego_1.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_frida_y_diego_2.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_frida_y_diego_3.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                }
+            ]
+        },
+        {
+            "titulo" : "Frida y la cesárea",
+            "descripcion" : "En el año 1930, un año después de casada, Frida debió enfrentar el primero de sus tres abortos. El de 1930 requirió intervención quirúrgica, ya que era absolutamente imposible el desarrollo del bebé en el útero, debido a las complicaciones de salud de la madre. \n\nProfundamente adolorida, ya que Frida deseaba con intensidad ser madre, al año siguiente pintó esta tragedia en el cuadro llamado Frida y la cesárea. El tema debió representar para ella una gran dificultad, ya que el cuadro quedó inconcluso.",
+            "principal" : "frida_cesárea.jpg",
+            "fragmentos" : [
+                {
+                    "fragmento" : "fr_frida_cesárea_1.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_frida_cesárea_2.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_frida_cesárea_3.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                }
+            ]
+        },
+        {
+            "titulo" : "Las dos Fridas",
+            "descripcion" : "En este cuadro, Frida parece haberse inspirado en el recuerdo de una amiga imaginaria que tuvo a los 6 años de edad, una especie de alter ego. En el cuadro representa sus dos herencias culturales: a la izquierda, la europea; a la derecha, la indígena.",
+            "principal" : "dos_fridas.jpg",
+            "fragmentos" : [
+                {
+                    "fragmento" : "fr_dos_fridas_1.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_dos_fridas_2.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_dos_fridas_3.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                }
+            ]
+        },
+        {
+            "titulo" : "Mi nacimiento",
+            "descripcion" : "Animada por Diego Rivera a retratar los momentos más singulares de su vida, Frida quiso representar su nacimiento como si se hubiera dado a luz a sí misma. En la escena aparece la madre con el rostro tapado por las sábanas, en alusión a su muerte. \n\nFrida asoma su cabeza entre las piernas de la madre y bajo ella un charco de sangre se presenta, recordando también su más reciente aborto espontáneo. Sobre la cama, colgado en la pared, un cuadro dentro del cuadro retrata a la Virgen de las Angustias que observa la situación.",
+            "principal" : "mi_nacimiento.jpg",
+            "fragmentos" : [
+                {
+                    "fragmento" : "fr_mi_nacimiento_1.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_mi_nacimiento_2.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_mi_nacimiento_3.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                }
+            ]
+        },
+        {
+            "titulo" : "Unos cuantos piqueticos",
+            "descripcion" : "Las infidelidades de Diego Rivera habían alcanzado el colmo cuando decidió tomar a la hermana de Frida por su amante. Una noticia sobre un feminicidio por aquel entonces impactó a Frida: un hombre había asesinado a su mujer a puñaladas. Al ser atrapado por las autoridades declaró: “Solo le di unos cuantos piqueticos”. \n\nFrida representó este crimen como alegoría de su sufrimiento emocional ante la traición doble, como una muerte espiritual. Sobre los personajes, una filacteria inmortaliza la frase del criminal. Un rasgo importante del cuadro es que la sangre sale del contexto pictórico y se dispersa por el marco, como queriendo alcanzar la realidad en la que se encuentra el espectador. Así, Frida intenta romper la separación entre ficción y realidad.",
+            "principal" : "unos_cuantos_piqueticos.jpg",
+            "fragmentos" : [
+                {
+                    "fragmento" : "fr_unos_cuantos_piqueticos_1.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_unos_cuantos_piqueticos_2.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                },
+                {
+                    "fragmento" : "fr_unos_cuantos_piqueticos_3.jpg",
+                    "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis arcu non est tincidunt, non lacinia massa ornare. Proin sem magna, commodo vitae hendrerit vitae, maximus sed urna."
+                }
+            ]
+        }
+    ]
+}

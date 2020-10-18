@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles\principal.css">
+  <link rel="stylesheet" href="styles\carrusel.css">
+
+  <script src="https://kit.fontawesome.com/b1dc660265.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<body >
+  <div id="btn-social">
+    <div class="fx-center" style="background-color: #2e406e;"><i class="fab fa-facebook-square"></i></div>
+    <div class="fx-center" style="background-color: #339dc5;"><i class="fab fa-twitter-square"></i></div>
+    <div class="fx-center" style="background-color: #3f60a5;"><i class="fab fa-instagram"></i></div>
+    <div class="fx-center" style="background-color: #e83028;"><i class="fab fa-youtube"></i></div>
+    <div class="fx-center" style="background-color: #81b71a;"><i class="fab fa-spotify"></i></div>
+    <div class="fx-center" style="background-color: #C92228;"><i class="fab fa-pinterest"></i></div>
+    <div class="fx-center" style="background-color: #474646;"><i class="fas fa-envelope"></i></div>
+    <div class="fx-center" style="background-color: #8bb6cc;"><i class="fas fa-search"></i></div> 
+  </div>
+  <div class="fx-center" id="exo-digital">
+    <img src="resours/edicion-d.png" alt="digital">
+  </div>
+  <div class="container shadow">
+    <header class="shadow fx-betwen fx-wrap">
+      <img src="resours\logosunamfes.jpg" alt="fes aragon">
+      <div class="w-100-sm">
+        <form id="busqueda" class="fIn-left">
+          <div class="fx-center bg-dark" onclick="busqueda.submit()"><i class="fas fa-search"></i></div>
+          <input class="bg-smoke" type="text" name="nombre" placeholder="Buscar obra" minlength="3" maxlength="25" required>
+        </form>
+      </div>
+    </header>
+      <div class="fx-center" id="img_header">
+        <div class="txtIn-center w-100 bg-white05 myIn-1">
+          <h3>EXPOSICIÓN</h3>
+          <h1>NEZA... UNA <wbr> REALIDAD OLVIDAD</h1>
+          <h3>Pasado, presente y futuro</h3>
+        </div>
+      </div>
+      <article class="bg-shadow py-3 myIn-3">
+        <h2 id="artista" class="txt-center txt-capitalize"></h2>
+        <p id="info_artista" class="txt-justify txt-prewrap"></p>
+        <div class="thumbnail-slider">
+          <div class="thumbnail-container"></div>
+          <div class="controls">
+          </div>
+        </div>
+        <div id="contactos" class="fx-around fxd-column-sm myIn-1 wd-wrap w-100">
+          <div class="w-30 txt-center myIn-05">
+            <i class="fas fa-envelope"></i>
+            <p>pubicaciones@aragon.unam.mx</p>
+          </div>
+          <div class="w-30 txt-center myIn-05">
+            <i class="fas fa-thumbtack"></i>
+            <p>
+              Lorem ipsum dolor sit amet / consectetur, adipisicing elit. Sunt, aut blanditiis alias iure fuga.
+            </p>
+          </div>
+          <div class="w-30 txt-center myIn-05">
+            <i class="fas fa-mobile-alt"></i>
+            <p>56230899</p>
+          </div>
+        </div>
+      </article>
+  </div>
+  <div class="w-100" id="ms_informacion">
+    <div class="container h-100">
+      <div onclick="exitInfo()" class="salir">
+        <i class="fas fa-chevron-circle-down"></i>
+      </div>
+      <article id="obra"  class="bg-dark py-3 myIn-3 minH-100 shadow">
+        <div class="bg-white05 py-1 myIn-05">
+          <h2 class="txt-center txt-upper"></h2>
+        </div>
+        <p class="txt-justify txt-prewrap"></p>
+        <div class="fx-around fxd-column-sm">
+          <div id="img_modal">
+            <div id="salir_modal" class="salir">
+              <i class="fas fa-times"></i>
+            </div>
+            <img id="img_obra" class="p-1 w-100 w-100-sm">
+          </div>
+          <div id="frac_obra" class="m-2 myIn-1 fIn-left"></div>
+        </div>
+      </article>
+    </div>
+  </div>
+  <footer class="p-1 container bg-shadow shadow">
+    <p class="txt-center">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus est eaque quia, nostrum explicabo ratione? Necessitatibus.
+      <a class="p-05 d-block mx-auto m-05 bg-dark" href="#">Créditos</a>
+    </p>
+  </footer>
+  <script src="scripts\carrusel.js"></script>
+  <script src="scripts/getJson.js"></script>
+</body>
+</html>
