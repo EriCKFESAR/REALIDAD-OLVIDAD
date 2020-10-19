@@ -20,7 +20,7 @@
 .fx-around{ display: flex; align-items: center; justify-content: space-around; }
 .fx-center{ display: flex; align-items: center; justify-content: center; }
 .fx-wrap{ flex-wrap: wrap; }
-
+.fx-column{ flex-direction: column; }
 .fIn-left > *{ float: left; overflow: hidden; }
 
 /*---------->     Color de fondo*/

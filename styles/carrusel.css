@@ -19,13 +19,14 @@ body{
 }
 
 .thumbnail-slider .item{
-  height: 250px;
+  height: 290px;
   background-color: grey;
   color:#ffffff;
   float: left;
 }
 .item{
 	border:1px solid #c3c3c3;
+	text-align: center;
 }
 .item > img{
 	display: block;
