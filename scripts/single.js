@@ -17,10 +17,15 @@ const   artista = document.getElementById('artista'),
     try {
         const response = await fetch(requestURL);
         data = await response.json();
+        let seleccion = getParametro('obra');
+
         loadContent();
         loadCarousel();
+
+        if(seleccion != "") setTimeout(loadWork(seleccion), 550);
+
     } catch (error) {
-        location.href="index.html";
+        // location.href="index.html";
     }
 })();
 /* </Peticion a Json> */
