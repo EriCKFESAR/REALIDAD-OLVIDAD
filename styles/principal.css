@@ -266,7 +266,7 @@ input{
     #img_principal{
         height: calc(var(--vh) * 100 - 99px) !important;
     }
-    #ms_informacion.activo{
+    #mas_informacion.activo{
         height: calc(var(--vhprog) * 100 - 99px) !important;
     }
     #btn-social{
