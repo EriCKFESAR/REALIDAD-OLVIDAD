@@ -69,9 +69,11 @@
     </div>
     <!-- </Carrusel> -->
 
+    <!-- <Boton para ver mas> -->
     <div class="fx-center w-100">
-      <a id="btn_informacion">VER MÁS</a>
+      <button onclick="loadInformation()" id="btn_informacion">VER MÁS</button>
     </div>
+    <!-- </Boton para ver mas> -->
 
     <!-- <Contactos> -->
     <div id="contactos" class="fx-around fxd-column-sm myIn-1 wd-wrap w-100">
@@ -97,10 +99,11 @@
   <!-- <Contenedor desplegable> -->
   <div class="w-100" id="mas_informacion">
     <div class="container h-100">
-      <div class="salir" id="salir_info">
+      <div onclick="exit()" class="salir">
         <i class="fas fa-chevron-circle-down"></i>
       </div>
       <article class="bg-dark py-3 myIn-3 minH-100 shadow">
+
         <!-- <Titutlo de la exposicion> -->
         <div class="bg-white05 py-1 myIn-05">
           <h3 class="txt-center">EXPOSICIÓN</h3>

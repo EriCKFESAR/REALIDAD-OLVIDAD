@@ -11,6 +11,7 @@ const   artista = document.getElementById('artista'),
         rutaObras = 'resours/obras/',
         rutaFragmentos = 'resours/fragmentos/';
 
+/* <Peticion a Json> */
 (async function getArtista(){
     const requestURL = `json/${getParametro('artista')}.json`;
     try {
@@ -22,14 +23,18 @@ const   artista = document.getElementById('artista'),
         location.href="index.html";
     }
 })();
+/* </Peticion a Json> */
 
+/* <Retorno de variable en url> */
 function getParametro(nombre) {
     nombre = nombre.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
     var regex = new RegExp("[\\?&]" + nombre + "=([^&#]*)"),
     results = regex.exec(location.search);
     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 }
+/* </Retorno de variable en url> */
 
+/* <Carga de contenido principal en documento html> */
 function loadContent(){
     artista.innerHTML = data.artista;
     descripArtista.innerHTML = data.descripcion;
@@ -42,7 +47,9 @@ function loadContent(){
         </div>`
     });
 }
+/* </Carga de contenido principal en documento html> */
 
+/* <Carga de contenido por obra en documento html> */
 function loadWork(_obra){
     let obra = data.obras.filter(aux => aux.titulo == _obra);
 
@@ -60,11 +67,14 @@ function loadWork(_obra){
         `;
     })
 }
+/* </Carga de contenido por obra en documento html> */
 
-function exitInfo(){
+/* <Oculta menu desplegable> */
+function exit(){
     masInfo.classList.remove('activo');
     document.querySelector('body').classList.remove('bloqueo');
 }
+/* </Oculta menu desplegable> */
 
 document.documentElement.style.setProperty('--vh', `${window.innerHeight * 0.01}px`);
 document.documentElement.style.setProperty('--vhprog', `${window.innerHeight * 0.01}px`);

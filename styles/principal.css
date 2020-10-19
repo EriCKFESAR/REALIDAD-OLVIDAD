@@ -153,11 +153,13 @@
     background: #000 url(../resours/imagen_principal.png) center / cover;
     height: 25vh;
     background-attachment: fixed;
+    cursor: pointer;
 }
 
 /*---------->     Más información*/
 #btn_informacion{
     border: 2px solid white;
+    background-color: transparent;
     padding: 5px 12px;
     border-radius: 20px;
     cursor:pointer;
@@ -213,6 +215,10 @@
 
 /* TAG */
 
+a{
+    text-decoration: none;
+}
+
 article{
     padding-left: 40px ;
     padding-right: 40px ;
@@ -241,7 +247,6 @@ footer{
 }
 footer a{
     width: 80px;
-    text-decoration: none;
     border-radius: 10px 20px 10px 20px;
     border: 1px solid white;
 }
