@@ -1,5 +1,6 @@
 const   masInfo = document.getElementById('mas_informacion'),
         carrusel = document.querySelector('.thumbnail-container'),
+        artistas = document.getElementById('etiquetas'),
 
         rutaObras = 'resours/obras/';
 
@@ -27,8 +28,10 @@ function loadContent(){
                 <img src="${rutaObras}${obra.imagen}" alt="obra-1">
                 <p maxlength="20"> ${obra.artista}</p>
             </a>
-        </div>`
-    });
+        </div>`;
+        artistas.innerHTML += 
+        `<a class="bg-gold txt-shadow m-1" href="single.html?artista=${obra.referencia}">${obra.artista}</a>`;
+    })
 }
 /* </Carga de contenido principal en documento html> */
 
