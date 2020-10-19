@@ -7,7 +7,6 @@
 
 /*---------->     texto*/
 .txt-center{ text-align: center; }
-.txtIn-center > *{ text-align: center; }
 .txt-justify{ text-align: justify; }
 .wd-wrap{ word-wrap: break-word; }
 .txt-capitalize{ text-transform: capitalize; }
@@ -16,7 +15,7 @@
 
 /*---------->     Alineo de cajas*/
 .d-block{ display: block; }
-
+.d-contents{ display: contents; }
 .fx-betwen{ display: flex; align-items: center; justify-content: space-between; }
 .fx-around{ display: flex; align-items: center; justify-content: space-around; }
 .fx-center{ display: flex; align-items: center; justify-content: center; }
@@ -105,6 +104,7 @@
     right: 10px;
     top: 10%;
     cursor: pointer;
+    z-index: 99;
 }
 #btn-social :first-child{
     border-radius: 0 16px 0 0;
@@ -163,7 +163,7 @@
     cursor:pointer;
 }
 
-#ms_informacion{
+#mas_informacion{
     position: fixed;
     bottom: 0;
     left: 0;
@@ -172,7 +172,7 @@
 	overflow: hidden;
     transition: height 0.6s ease-in-out;
 }
-#ms_informacion.activo{
+#mas_informacion.activo{
     height: calc(100vh - 90px);
     overflow-y: overlay;
 }
@@ -187,37 +187,6 @@
     padding-top: 50px;
     width: calc(100% - 150px);
 }
-
-/*---------->     Imagen modal*/
-#img_modal{
-    display: contents;
-}
-#salir_modal{
-    display: none;
-    font-size: 30px;
-    text-shadow: 0 0 10px black;
-}
-#img_modal.activo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #0009;
-}
-#img_modal.activo img{
-    background-color: transparent;
-    cursor: initial;
-}
-#img_modal.activo #salir_modal{
-    display:  block;
-    top: 10%;
-    right: 10%;;
-}
-
 /*---------->*/
 
 #etiquetas > a{
@@ -230,10 +199,10 @@
 #contactos > div{
     min-width: 200px;
 }
-#ms_informacion article{
+#mas_informacion article{
     border-radius: 5px 5px 0 0;
 }
-#img_obra{
+#img_obra img{
     object-fit: contain;
     max-height: calc(100vh - 90px);
     background-color: #575757;
@@ -253,7 +222,7 @@ article{
 header {
     background-color: white;
     padding: 5px 15px;
-    position: sticky;
+    position: sticky !important;
     z-index: 1;
     left: 0;
     top: 0;

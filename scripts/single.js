@@ -1,28 +1,71 @@
-// var imagenes = document.querySelectorAll('.card img'),
-//     masInfo = document.getElementById('ms_informacion'),
-//     salirInfo = document.getElementById('salir_info'),
-//     salirModal = document.getElementById('salir_modal'),
-//     imgObra = document.getElementById('img_obra'),
-//     imgModal = document.getElementById('img_modal');
+const   artista = document.getElementById('artista'),
+        descripArtista = document.getElementById('info_artista'),
+        carrusel = document.querySelector('.thumbnail-container'),
+        titulObra = document.querySelector('#obra > h2'),
+        descripObra = document.querySelector('#obra > p'),
+        imagenObra = document.querySelector('#img_obra img'),
+        linkImgObra = document.querySelector('#img_obra'),
+        obraFragmentos = document.getElementById('frac_obra'),
+        masInfo = document.getElementById('mas_informacion'),
 
-//     for (let imagen of imagenes) {
-//         imagen.addEventListener('click', (e) => {
-//             let src = e.target.getAttribute('src');
-//             masInfo.classList.add('activo');
-//             document.querySelector('body').classList.add('bloqueo');
-//             imgObra.setAttribute('src', src)
-//         });
-//     }
-//     salirInfo.addEventListener('click', ()=>{
-//         masInfo.classList.remove('activo');
-//         document.querySelector('body').classList.remove('bloqueo');
-//     })
-//     imgObra.addEventListener('click', ()=>{
-//         imgModal.classList.add('activo');
-//         masInfo.classList.add('bloqueo');
-//     })
-//     salirModal.addEventListener('click', () => {
-//         imgModal.classList.remove('activo');
-//         masInfo.classList.remove('bloqueo');
-//     })
-    
+        rutaObras = 'resours/obras/',
+        rutaFragmentos = 'resours/fragmentos/';
+
+(async function getArtista(){
+    const requestURL = `json/${getParametro('artista')}.json`;
+    try {
+        const response = await fetch(requestURL);
+        data = await response.json();
+        loadContent();
+        loadCarousel();
+    } catch (error) {
+        location.href="index.html";
+    }
+})();
+
+function getParametro(nombre) {
+    nombre = nombre.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + nombre + "=([^&#]*)"),
+    results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+function loadContent(){
+    artista.innerHTML = data.artista;
+    descripArtista.innerHTML = data.descripcion;
+    data.obras.forEach(obra => {
+        carrusel.innerHTML +=
+        `<div class="item card">
+            <h3>${obra.titulo}</h3>
+            <img onclick="loadWork('${obra.titulo}')"  src="${rutaObras}${obra.principal}" alt="obra-1">
+            <p maxlength="20"> ${obra.descripcion.substring(0,100)}... </p>
+        </div>`
+    });
+}
+
+function loadWork(_obra){
+    let obra = data.obras.filter(aux => aux.titulo == _obra);
+
+    masInfo.classList.add('activo');
+    document.querySelector('body').classList.add('bloqueo');
+    titulObra.innerHTML = obra[0].titulo;
+    descripObra.innerHTML = obra[0].descripcion;
+    linkImgObra.href = rutaObras + obra[0].principal;
+    imagenObra.src = rutaObras + obra[0].principal;
+    obraFragmentos.innerHTML = "";
+    obra[0].fragmentos.forEach(fragmento => {
+        obraFragmentos.innerHTML += `
+        <img class="mr-1" src="${rutaFragmentos}${fragmento.fragmento}">
+        <p class="mt-1">${fragmento.descripcion}</p>
+        `;
+    })
+}
+
+function exitInfo(){
+    masInfo.classList.remove('activo');
+    document.querySelector('body').classList.remove('bloqueo');
+}
+
+document.documentElement.style.setProperty('--vh', `${window.innerHeight * 0.01}px`);
+document.documentElement.style.setProperty('--vhprog', `${window.innerHeight * 0.01}px`);
+window.addEventListener('resize', () => { document.documentElement.style.setProperty('--vhprog', `${window.innerHeight * 0.01}px`); });
