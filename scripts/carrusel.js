@@ -80,3 +80,5 @@
           jumpSlideWidth=jumpSlideWidth+(containerWidth*numb);
        container.style.marginLeft=-jumpSlideWidth + "px";
  }
+
+ console.log("Si se cambia el tamañao horizontal de la ventana es necesario recargar la pagina para que el carrusel se ajuste a las nuevas diemensiones")
