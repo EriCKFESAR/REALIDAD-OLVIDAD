@@ -22,7 +22,7 @@ function loadContent(){
     data.forEach(obra => {
         carrusel.innerHTML +=
         `<div class="item fx-around fx-column">
-            <a class="d-contents" href="single.html?artista=${obra.id}">
+            <a class="d-contents" href="single.html?artista=${obra.referencia}">
                 <h3 class="txt-capitalize">${obra.titulo}</h3>
                 <img src="${rutaObras}${obra.imagen}" alt="obra-1">
                 <p maxlength="20"> ${obra.artista}</p>

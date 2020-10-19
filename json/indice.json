@@ -1,36 +1,36 @@
 [
     {   
-        "id" : "frida_kahlo",
+        "referencia" : "frida_kahlo",
         "titulo": "Autorretrato",
         "artista" : "Frida Kahlo",
         "imagen" : "autoretrato.jpg"
     },{   
-        "id" : "diego_rivera",
+        "referencia" : "diego_rivera",
         "titulo": "La Creación",
         "artista" : "Diego Rivera",
         "imagen" : "la_creación.jpg"
     },{   
-        "id" : "frida_kahlo",
+        "referencia" : "frida_kahlo",
         "titulo": "Frida y Diego Rivera",
         "artista" : "Frida Kahlo",
         "imagen" : "frida_y_diego.jpg"
     },{   
-        "id" : "diego_rivera",
+        "referencia" : "diego_rivera",
         "titulo": "Capilla Riveriana",
         "artista" : "Diego Rivera",
         "imagen" : "capilla_riveriana.jpg"
     },{   
-        "id" : "frida_kahlo",
+        "referencia" : "frida_kahlo",
         "titulo": "Frida y la Cesárea",
         "artista" : "Frida Kahlo",
         "imagen" : "frida_cesárea.jpg"
     },{   
-        "id" : "diego_rivera",
+        "referencia" : "diego_rivera",
         "titulo": "Epopeya del pueblo mexicano",
         "artista" : "Diego Rivera",
         "imagen" : "epopeya.jpg"
     },{   
-        "id" : "frida_kahlo",
+        "referencia" : "frida_kahlo",
         "titulo": "Las dos Fridas",
         "artista" : "Frida Kahlo",
         "imagen" : "dos_fridas.jpg"
