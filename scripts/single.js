@@ -22,10 +22,10 @@ const   artista = document.getElementById('artista'),
         loadContent();
         loadCarousel();
 
-        if(seleccion != "") setTimeout(loadWork(seleccion), 550);
+        if(seleccion != "") setTimeout(loadWork(seleccion), 500);
 
     } catch (error) {
-        // location.href="index.html";
+        location.href="index.html";
     }
 })();
 /* </Peticion a Json> */
@@ -57,20 +57,21 @@ function loadContent(){
 /* <Carga de contenido por obra en documento html> */
 function loadWork(_obra){
     let obra = data.obras.filter(aux => aux.titulo == _obra);
-
-    masInfo.classList.add('activo');
-    document.querySelector('body').classList.add('bloqueo');
-    titulObra.innerHTML = obra[0].titulo;
-    descripObra.innerHTML = obra[0].descripcion;
-    linkImgObra.href = rutaObras + obra[0].principal;
-    imagenObra.src = rutaObras + obra[0].principal;
-    obraFragmentos.innerHTML = "";
-    obra[0].fragmentos.forEach(fragmento => {
-        obraFragmentos.innerHTML += `
-        <img class="mr-1" src="${rutaFragmentos}${fragmento.fragmento}">
-        <p class="mt-1">${fragmento.descripcion}</p>
-        `;
-    })
+    if(obra[0] != null){
+        masInfo.classList.add('activo');
+        document.querySelector('body').classList.add('bloqueo');
+        titulObra.innerHTML = obra[0].titulo;
+        descripObra.innerHTML = obra[0].descripcion;
+        linkImgObra.href = rutaObras + obra[0].principal;
+        imagenObra.src = rutaObras + obra[0].principal;
+        obraFragmentos.innerHTML = "";
+        obra[0].fragmentos.forEach(fragmento => {
+            obraFragmentos.innerHTML += `
+            <img class="mr-1" src="${rutaFragmentos}${fragmento.fragmento}">
+            <p class="mt-1">${fragmento.descripcion}</p>
+            `;
+        })
+    }
 }
 /* </Carga de contenido por obra en documento html> */
 
